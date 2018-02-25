@@ -1,0 +1,14 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="Blade Template༏ext༏.blade.php" reformat="true" live-template-enabled="true" />
+      <template name="Controller.php" reformat="true" live-template-enabled="true" />
+      <template name="Service Provider.php" reformat="true" live-template-enabled="true" />
+      <template name="Vue File.vue" reformat="true" live-template-enabled="true" />
+      <template name="Vue Plugin.js" reformat="true" live-template-enabled="true" />
+    </default_templates>
+    <internal_templates>
+      <template name="PHP File.php" reformat="true" live-template-enabled="true" enabled="true" />
+    </internal_templates>
+  </component>
+</application>

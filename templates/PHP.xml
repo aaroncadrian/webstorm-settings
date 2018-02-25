@@ -1,0 +1,20 @@
+<templateSet group="PHP">
+  <template name="fcb" value="function() {&#10;    $END$&#10;}" description="Function Callback" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="func" value="function($args$) {&#10;    return$END$;&#10;}" description="Function Callback" toReformat="false" toShortenFQNames="true">
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="funcuse" value="function($args$) use($use$) {&#10;    return$END$;&#10;}" description="Function Callback" toReformat="false" toShortenFQNames="true">
+    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="use" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

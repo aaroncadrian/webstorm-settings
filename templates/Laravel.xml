@@ -1,0 +1,55 @@
+<templateSet group="Laravel">
+  <template name="ind" value="public function index(Request $request)&#10;{&#10;    $END$&#10;}" description="Controller Index Method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="sh" value="public function show(Request $request, $SHOW$)&#10;{&#10;    $END$&#10;}" description="Controller Show Method" toReformat="false" toShortenFQNames="true">
+    <variable name="SHOW" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="rg" value="Route::group([&#10;    'middleware' =&gt; [&#10;        $MIDDLEWARE$&#10;    ],&#10;    'as' =&gt; '$AS$',&#10;    'prefix' =&gt; '$PREFIX$',&#10;    'namespace' =&gt; '$NAMESPACE$',&#10;], function() {&#10;    &#10;    $END$&#10;    &#10;});" description="Route Group" toReformat="false" toShortenFQNames="true">
+    <variable name="MIDDLEWARE" expression="" defaultValue="//" alwaysStopAt="true" />
+    <variable name="AS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PREFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAMESPACE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="rget" value="Route::get('/$URL$', '$CONTROLLER$Controller@$METHOD$')-&gt;name('$NAME$');" description="Route Get" toReformat="false" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="URL" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="METHOD" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="rshow" value="Route::get('/$URL$', '$CONTROLLER$Controller@show')-&gt;name('$NAME$.show');" description="Route Show" toReformat="false" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="METHOD" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="rstore" value="Route::post('/$URL$', '$CONTROLLER$Controller@store')-&gt;name('$NAME$.store');" description="Route Store" toReformat="false" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="METHOD" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+</templateSet>

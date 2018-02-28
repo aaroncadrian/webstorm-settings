@@ -27,7 +27,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="scope" value="public function scope$Name$($query)" description="Eloquent Query Scope" toReformat="false" toShortenFQNames="true">
-    <variable name="Name" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="scope" value="public function scope$NAME$($query)&#10;{&#10;    return $query;$END$&#10;}" description="Eloquent Query Scope" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
   </template>
 </templateSet>

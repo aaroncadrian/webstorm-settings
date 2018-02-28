@@ -1,5 +1,5 @@
 <application>
   <component name="VagrantSettings">
-    <option name="vagrantExecutable" value="$USER_HOME$/Homestead/Vagrantfile" />
+    <option name="vagrantExecutable" value="$USER_HOME$/Homestead/bin/homestead" />
   </component>
 </application>

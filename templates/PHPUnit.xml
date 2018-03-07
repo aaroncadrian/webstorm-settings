@@ -1,8 +1,18 @@
 <templateSet group="PHPUnit">
-  <template name="test" value="/** @test */&#10;public function $name$()&#10;{&#10;    $END$&#10;}" description="Test Method" toReformat="false" toShortenFQNames="true">
+  <template name="test" value="/** &#10; * @test&#10; */&#10;public function $name$()&#10;{&#10;    $END$&#10;}" description="Test Method" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="curr" value="@group current" description="@group current phpunit" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+  <template name="gr" value="@group $END$" description="@group phpunit" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP Comment" value="true" />
     </context>
   </template>
 </templateSet>

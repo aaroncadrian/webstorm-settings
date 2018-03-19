@@ -28,4 +28,10 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
+  <template name="/*-" value="/*&#10;|--------------------------------------------------------------------------&#10;| $NAME$&#10;|--------------------------------------------------------------------------&#10;| $END$&#10;|&#10;*/" description="Fancy Comment" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
 </templateSet>

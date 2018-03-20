@@ -34,4 +34,22 @@
       <option name="PHP Comment" value="true" />
     </context>
   </template>
+  <template name="pubf" value="public function $NAME$($PARAMETERS$)$RETURNTYPE$&#10;{&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="prof" value="protected function $NAME$($PARAMETERS$)$RETURNTYPE$&#10;{&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="prosf" value="protected static function $NAME$($PARAMETERS$)$RETURNTYPE$&#10;{&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURNTYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>

@@ -749,6 +749,11 @@
         <option name="FOREGROUND" value="e8bf6a" />
       </value>
     </option>
+    <option name="HANDLEBARS.IDENTIFIERS">
+      <value>
+        <option name="FOREGROUND" value="f9b5ff" />
+      </value>
+    </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="e8bf6a" />
@@ -1035,7 +1040,6 @@
         <option name="FOREGROUND" value="a5c261" />
       </value>
     </option>
-    <option name="PHP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="PHP_VAR">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />

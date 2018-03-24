@@ -3,23 +3,45 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Applications/XAMPP/xamppfiles/htdocs/jtd/modules/ImportHistoricalData/Transformers/Model/PhoneModelTransformer.php" timestamp="1521930540758">
-        <mark key="[" line="11" column="0" />
-        <mark key="]" line="11" column="32" />
-        <mark key="." line="11" column="8" />
-        <mark key="^" line="11" column="8" />
+      <file name="/Applications/XAMPP/xamppfiles/htdocs/jtd/modules/ImportHistoricalData/Transformers/Model/PhoneModelTransformer.php" timestamp="1521930697482">
+        <mark key="[" line="13" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="." line="13" column="0" />
+      </file>
+      <file name="/Applications/XAMPP/xamppfiles/htdocs/jtd/modules/Auth/Tests/Feature/UserRegistrationTest.php" timestamp="1521931519353">
+        <mark key="'" line="55" column="0" />
+        <mark key="[" line="35" column="11" />
+        <mark key="]" line="36" column="7" />
+        <mark key="." line="42" column="31" />
+        <mark key="^" line="36" column="7" />
       </file>
     </filemarks>
-    <jumps />
+    <jumps>
+      <jump line="20" column="22" filename="/Applications/XAMPP/xamppfiles/htdocs/jtd/modules/Auth/Tests/Feature/UserRegistrationTest.php" />
+      <jump line="0" column="0" filename="/Applications/XAMPP/xamppfiles/htdocs/jtd/modules/Auth/Tests/Feature/UserRegistrationTest.php" />
+      <jump line="57" column="0" filename="/Applications/XAMPP/xamppfiles/htdocs/jtd/modules/Auth/Tests/Feature/UserRegistrationTest.php" />
+    </jumps>
     <registers>
       <register name="0" type="2">
-        <text encoding="base64">ICAgIHByb3RlY3RlZCAkZGVmYXVsdFZhbHVlcyA9IFsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgJ3N1ZmZpeCcgPT4gJ05vbmUnLAo=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">aGVsbG8gdG8gYWxsIHlvdSBiZWF1dGlmdWwgcGVvcGxlCg==</text>
       </register>
       <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIHByb3RlY3RlZCAkZGVmYXVsdFZhbHVlcyA9IFsK</text>
+        <text encoding="base64">aGVsbG8gdG8gYWxsIHlvdSBiZWF1dGlmdWwgcGVvcGxlCg==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgJ3ByZWZlcnJlZE5hbWUnID0+ICdKb2huJywK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgICAgICBzZmxrc2Rmc2tsCg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICBzbGtmamRzbGsK</text>
       </register>
       <register name="-" type="4">
-        <text>protected</text>
+        <text>Exception</text>
       </register>
     </registers>
     <search>

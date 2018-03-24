@@ -1040,6 +1040,9 @@
         <option name="FOREGROUND" value="a5c261" />
       </value>
     </option>
+    <option name="PHP_PARAMETER">
+      <value />
+    </option>
     <option name="PHP_VAR">
       <value>
         <option name="FOREGROUND" value="d0d0ff" />

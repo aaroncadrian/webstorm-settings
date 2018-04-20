@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping ext="edge" type="HTML" />
       <mapping ext="hjs" type="Handlebars/Mustache" />
       <mapping pattern="production" type="PLAIN_TEXT" />
       <mapping pattern="dev" type="PLAIN_TEXT" />

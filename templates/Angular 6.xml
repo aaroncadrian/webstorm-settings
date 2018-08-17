@@ -4,4 +4,9 @@
       <option name="HTML" value="true" />
     </context>
   </template>
+  <template name="rl" value="[routerLink]=&quot;[$END$]&quot;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
 </templateSet>

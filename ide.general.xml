@@ -14,5 +14,9 @@
     <entry key="win.editor.thumb.default.fill.min" value="102" />
     <entry key="win.editor.thumb.default.fill.max" value="150" />
     <entry key="win.editor.thumb.darcula.fill.min" value="102" />
+    <entry key="ide.require.transaction.for.model.changes" value="false" />
+    <entry key="search.everywhere.pattern.checking" value="false" />
+    <entry key="actionSystem.fix.alt.gr" value="true" />
+    <entry key="ide.svg.icon" value="true" />
   </component>
 </application>

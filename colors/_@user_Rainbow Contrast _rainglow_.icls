@@ -4,7 +4,7 @@
     <property name="created">2018-09-06T11:34:27</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2018-09-06T11:36:18</property>
+    <property name="modified">2018-09-12T22:03:02</property>
     <property name="originalScheme">Rainbow Contrast (rainglow)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
@@ -14,7 +14,7 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_SIZE" value="20" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
@@ -3053,7 +3053,6 @@
         <option name="BACKGROUND" value="323232" />
       </value>
     </option>
-    <option name="SQL_SYNTHETIC_ENTITY" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffbe40" />

@@ -6,6 +6,8 @@
       <mapping pattern="SecondWindowView.fxml" type="PLAIN_TEXT" />
       <mapping pattern=".env.dusk.local" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern="DONT_DELETE_ME" type="PLAIN_TEXT" />
+      <mapping ext="interface" type="PLAIN_TEXT" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>

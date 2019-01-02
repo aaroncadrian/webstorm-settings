@@ -2,4 +2,7 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
   </action>
+  <action id="TsLintFileFixAction">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
 </keymap>

@@ -1,0 +1,8 @@
+<templateSet group="Java">
+  <template name="pl" value="System.out.println(&quot;$end$&quot;);" description="Print Line" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

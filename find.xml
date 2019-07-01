@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../src/app/admin/pilgrim-apps/pages/journey-choices-page/journey-choices-page.component.ts [JTD Front End Project]'" />
-    <option name="defaultScopeName" value="File '.../src/app/admin/pilgrim-apps/pages/journey-choices-page/journey-choices-page.component.ts [JTD Front End Project]'" />
+    <option name="customScope" value="File '.../src/app/admin/pilgrim-apps/pilgrim-apps.module.ts [JTD Front End Project]'" />
+    <option name="defaultScopeName" value="File '.../src/app/admin/pilgrim-apps/pilgrim-apps.module.ts [JTD Front End Project]'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../src/app/admin/pilgrim-apps/pages/journey-choices-page/journey-choices-page.component.ts [JTD Front End Project]'" />
+    <option name="SEARCH_SCOPE" value="File '.../src/app/admin/pilgrim-apps/pilgrim-apps.module.ts [JTD Front End Project]'" />
   </component>
 </application>

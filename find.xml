@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../src/app/admin/pilgrim-apps/pilgrim-apps.module.ts [JTD Front End Project]'" />
-    <option name="defaultScopeName" value="File '.../src/app/admin/pilgrim-apps/pilgrim-apps.module.ts [JTD Front End Project]'" />
+    <option name="customScope" value="Directory '.../src/app [JTD Front End Project]'" />
+    <option name="defaultScopeName" value="Directory '.../src/app [JTD Front End Project]'" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="File '.../src/app/admin/pilgrim-apps/pilgrim-apps.module.ts [JTD Front End Project]'" />
+    <option name="SEARCH_SCOPE" value="Directory '.../src/app [JTD Front End Project]'" />
   </component>
 </application>

@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '.../libs/distributor/feature-shell/src/lib/distributor-page/distributor-page.component.ts'" />
-    <option name="defaultScopeName" value="File '.../libs/distributor/feature-shell/src/lib/distributor-page/distributor-page.component.ts'" />
-    <option name="SEARCH_SCOPE" value="File '.../libs/distributor/feature-shell/src/lib/distributor-page/distributor-page.component.ts'" />
+    <option name="customScope" value="Directory '.../apps/jtd-admin/src/app'" />
+    <option name="defaultScopeName" value="Directory '.../apps/jtd-admin/src/app'" />
+    <option name="SEARCH_SCOPE" value="Directory '.../apps/jtd-admin/src/app'" />
   </component>
 </application>

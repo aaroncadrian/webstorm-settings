@@ -22,6 +22,9 @@
     <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="p" />
   </action>
   <action id="DumpLookupElementWeights" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift meta back_quote" />
+  </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>

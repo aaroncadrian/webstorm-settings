@@ -31,6 +31,9 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
   <action id="StringManipulation.SwitchStyleAction">
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>

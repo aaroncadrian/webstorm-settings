@@ -1,0 +1,18 @@
+<templateSet group="Angular">
+  <template name="con" value="constructor($END$) {}" description="Adds constructor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_CLASS" value="true" />
+      <option name="TS_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="inj" value="@Inject($TOKEN$)&#10;private readonly $PROPERTY_NAME$: $TYPE$$END$" description="adds @Inject() decorator" toReformat="false" toShortenFQNames="true">
+    <variable name="TOKEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPERTY_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="string" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

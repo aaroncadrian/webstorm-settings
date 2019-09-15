@@ -31,6 +31,11 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="IntroduceParameter" />
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift meta alt p" />
+    <keyboard-shortcut first-keystroke="meta alt p" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>

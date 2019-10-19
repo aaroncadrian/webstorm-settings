@@ -1,33 +1,33 @@
 <templateSet group="Eloquent">
-  <template name="hasm" value="public function $NAME$()&#10;{&#10;    return $this-&gt;hasMany($CLASS_NAME$::class);&#10;}" description="Has Many Relationship" toReformat="false" toShortenFQNames="true">
+  <template name="hasm" value="public function $NAME$()&#10;{&#10;    return $this-&gt;hasMany($CLASS_NAME$::class);&#10;}" description="Has Many Relationship" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="capitalize(NAME)" defaultValue="NAME" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="btm" value="public function $NAME$()&#10;{&#10;    return $this-&gt;belongsToMany($CLASS_NAME$::class);&#10;}" description="Belongs to Many Relationship" toReformat="false" toShortenFQNames="true">
+  <template name="btm" value="public function $NAME$()&#10;{&#10;    return $this-&gt;belongsToMany($CLASS_NAME$::class);&#10;}" description="Belongs to Many Relationship" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="capitalize(NAME)" defaultValue="NAME" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="bt" value="public function $NAME$()&#10;{&#10;    return $this-&gt;belongsTo($CLASS_NAME$::class);&#10;}" description="Belongs to Relationship" toReformat="false" toShortenFQNames="true">
+  <template name="bt" value="public function $NAME$()&#10;{&#10;    return $this-&gt;belongsTo($CLASS_NAME$::class);&#10;}" description="Belongs to Relationship" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="capitalize(NAME)" defaultValue="NAME" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="hasone" value="public function $NAME$()&#10;{&#10;    return $this-&gt;hasOne($CLASS_NAME$::class);&#10;}" description="Has One Relationship" toReformat="false" toShortenFQNames="true">
+  <template name="hasone" value="public function $NAME$()&#10;{&#10;    return $this-&gt;hasOne($CLASS_NAME$::class);&#10;}" description="Has One Relationship" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="CLASS_NAME" expression="capitalize(NAME)" defaultValue="NAME" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="scope" value="public function scope$NAME$($$query$PARAMETERS$)&#10;{&#10;    return $$query$END$;&#10;}" description="Eloquent Query Scope" toReformat="false" toShortenFQNames="true">
+  <template name="scope" value="public function scope$NAME$($$query$PARAMETERS$)&#10;{&#10;    return $$query$END$;&#10;}" description="Eloquent Query Scope" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

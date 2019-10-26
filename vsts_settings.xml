@@ -10,13 +10,30 @@
           <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
           <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
         </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://dev.azure.com/JourneyToDamascus" />
+          <option name="serverUri" value="https://dev.azure.com/JourneyToDamascus" />
+          <option name="userId" value="6ff11c67-cf53-6b2d-bc66-33974f5cecef" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;2717f570-4327-4dff-87d3-d9340702a579&quot;,&quot;name&quot;:&quot;JourneyToDamascus&quot;,&quot;url&quot;:&quot;https://dev.azure.com/JourneyToDamascus/_apis/projectCollections/2717f570-4327-4dff-87d3-d9340702a579&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;88001fac-bfea-405d-a617-cb1ada2cc938&quot;,&quot;name&quot;:&quot;JourneyManagementSystem&quot;,&quot;revision&quot;:39,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/JourneyToDamascus/_apis/projects/88001fac-bfea-405d-a617-cb1ada2cc938&quot;}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://JourneyToDamascus@dev.azure.com/JourneyToDamascus/JourneyManagementSystem/_git/JTD%20Front%20End%20Project" />
+          <option name="serverUri" value="https://dev.azure.com/JourneyToDamascus" />
+          <option name="userId" value="6ff11c67-cf53-6b2d-bc66-33974f5cecef" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;2717f570-4327-4dff-87d3-d9340702a579&quot;,&quot;name&quot;:&quot;JourneyToDamascus&quot;,&quot;url&quot;:&quot;https://dev.azure.com/JourneyToDamascus/_apis/projectCollections/2717f570-4327-4dff-87d3-d9340702a579&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;88001fac-bfea-405d-a617-cb1ada2cc938&quot;,&quot;name&quot;:&quot;JourneyManagementSystem&quot;,&quot;revision&quot;:39,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/JourneyToDamascus/_apis/projects/88001fac-bfea-405d-a617-cb1ada2cc938&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;cfb20659-9366-433a-8f13-4d96389584e5&quot;,&quot;name&quot;:&quot;JTD Front End Project&quot;,&quot;remoteUrl&quot;:&quot;https://JourneyToDamascus@dev.azure.com/JourneyToDamascus/JourneyManagementSystem/_git/JTD%20Front%20End%20Project&quot;,&quot;url&quot;:&quot;https://dev.azure.com/JourneyToDamascus/88001fac-bfea-405d-a617-cb1ada2cc938/_apis/git/repositories/cfb20659-9366-433a-8f13-4d96389584e5&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;88001fac-bfea-405d-a617-cb1ada2cc938&quot;,&quot;name&quot;:&quot;JourneyManagementSystem&quot;,&quot;revision&quot;:39,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://dev.azure.com/JourneyToDamascus/_apis/projects/88001fac-bfea-405d-a617-cb1ada2cc938&quot;}}" />
+        </ServerContextState>
       </array>
     </option>
     <option name="properties">
       <array>
         <PropertyState>
           <option name="name" value="lastContextKey" />
-          <option name="value" value="//app.vssps.visualstudio.com" />
+          <option name="value" value="//journeytodamascus@dev.azure.com/journeytodamascus/journeymanagementsystem/_git/jtd front end project" />
         </PropertyState>
       </array>
     </option>

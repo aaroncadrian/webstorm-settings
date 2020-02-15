@@ -1,5 +1,5 @@
 <templateSet group="Java">
-  <template name="pl" value="System.out.println(&quot;$end$&quot;);" description="Print Line" toReformat="false" toShortenFQNames="true">
+  <template name="pl" value="System.out.println(&quot;$end$&quot;);" description="Print Line" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />

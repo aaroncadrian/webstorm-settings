@@ -1,5 +1,5 @@
 <templateSet group="Laravel Migrations">
-  <template name="foreign" value="$table-&gt;foreign('$FK$')&#10;    -&gt;references('$ID$')&#10;    -&gt;on('$TABLE$')&#10;    -&gt;onDelete('$DELETE$')&#10;    -&gt;onUpdate('$UPDATE$');&#10;    " description="Foreign key relationship" toReformat="false" toShortenFQNames="true">
+  <template name="foreign" value="$table-&gt;foreign('$FK$')&#10;    -&gt;references('$ID$')&#10;    -&gt;on('$TABLE$')&#10;    -&gt;onDelete('$DELETE$')&#10;    -&gt;onUpdate('$UPDATE$');&#10;    " description="Foreign key relationship" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="FK" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TABLE" expression="" defaultValue="FK" alwaysStopAt="true" />

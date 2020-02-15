@@ -1,9 +1,21 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '.../src/app [JTD Front End Project]'" />
-    <option name="defaultScopeName" value="Directory '.../src/app [JTD Front End Project]'" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory '.../src/app [JTD Front End Project]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.xml</mask>
+    <mask>*.css</mask>
+    <mask>*.htm</mask>
+    <mask>*.ng</mask>
+    <mask>*.shtml</mask>
+    <mask>*.shtm</mask>
+    <mask>*.sht</mask>
+    <mask>*.html</mask>
+    <mask>*.ats</mask>
+    <mask>*.cjs</mask>
+    <mask>*.js</mask>
+    <mask>*.ts</mask>
   </component>
 </application>

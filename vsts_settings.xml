@@ -33,6 +33,10 @@
     <option name="properties">
       <array>
         <PropertyState>
+          <option name="name" value="authType" />
+          <option name="value" value="DEVICE_FLOW" />
+        </PropertyState>
+        <PropertyState>
           <option name="name" value="lastContextKey" />
           <option name="value" value="//anything:mkuj2o6opze3ip7eipr4omotirojyzhvnbl4vnev3fuqjt44kfdq@dev.azure.com/journeytodamascus/journeymanagementsystem/_git/jtd-frontend" />
         </PropertyState>

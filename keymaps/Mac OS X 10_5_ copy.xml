@@ -39,6 +39,7 @@
   </action>
   <action id="IntroduceParameter" />
   <action id="PreviousWindow" />
+  <action id="PropTypeAction" />
   <action id="ReformatCode" />
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta alt p" />

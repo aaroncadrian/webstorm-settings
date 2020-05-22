@@ -6,4 +6,8 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="ref" value="///&lt;reference path=&quot;$PATH$&quot;/&gt;&#10;$END$" description="Inserts reference path comment" toReformat="true" toShortenFQNames="false" deactivated="true">
+    <variable name="PATH" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>

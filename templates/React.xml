@@ -19,6 +19,7 @@
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
   <template name="rcfc" value="import React, { Component } from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;class $componentName$ extends Component {&#10;    constructor(props) {&#10;        super(props);&#10;    }&#10;    &#10;    componentWillMount() {&#10;    &#10;    }&#10;    &#10;    componentDidMount() {&#10;    &#10;    }&#10;    &#10;    componentWillReceiveProps(nextProps) {&#10;    &#10;    }&#10;    &#10;    shouldComponentUpdate(nextProps, nextState) {&#10;    &#10;    }&#10;    &#10;    componentWillUpdate(nextProps, nextState) {&#10;    &#10;    }&#10;    &#10;    componentDidUpdate(prevProps, prevState) {&#10;    &#10;    }&#10;    &#10;    componentWillUnmount() {&#10;    &#10;    }&#10;    &#10;    render() {&#10;        return (&#10;            &lt;div&gt;&#10;                $END$&#10;            &lt;/div&gt;&#10;        );&#10;    }&#10;}&#10;&#10;$componentName$.propTypes = {&#10;&#10;};&#10;&#10;export default $componentName$;&#10;" description="Creates a React component class with PropTypes and all lifecycle methods and ES6 module system" toReformat="true" toShortenFQNames="true" deactivated="true">
@@ -119,6 +120,7 @@
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
@@ -301,6 +303,7 @@
     <context>
       <option name="HTML" value="true" />
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="false" />
       <option name="TypeScript" value="true" />
     </context>
   </template>
@@ -317,61 +320,76 @@
   </template>
   <template name="bind" value="this.$FUNC$ = this.$FUNC$.bind(this);$END$" description="Binds the this of a method. To be used inside a constructor" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="FUNC" expression="" defaultValue="&quot;handleChange&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="pt" value="$componentName$.propTypes = {&#10;    $END$&#10;};&#10;" description="Creates empty propTypes declaration" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="componentName" expression="" defaultValue="&quot;MyComponent&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useState" value="const [$state$, set$setState$] = useState($initState$);$END$" description="useState" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="state" expression="" defaultValue="&quot;state&quot;" alwaysStopAt="true" />
     <variable name="setState" expression="capitalize(state)" defaultValue="" alwaysStopAt="true" />
     <variable name="initState" expression="" defaultValue="&quot;initState&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useEffect" value="useEffect(() =&gt; {&#10;  return () =&gt; {&#10;    $effect$&#10;  };&#10;}, [$input$]);&#10;$END$" description="useEffect" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="effect" expression="" defaultValue="&quot;effect&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useContext" value="const $context$ = useContext($contextValue$);$END$" description="useContext" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="context" expression="" defaultValue="&quot;context&quot;" alwaysStopAt="true" />
     <variable name="contextValue" expression="" defaultValue="&quot;contextValue&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useCallback" value="useCallback(&#10;  () =&gt; {&#10;    $callback$&#10;  },&#10;  [$input$],&#10;);&#10;$END$" description="useCallback" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="callback" expression="" defaultValue="&quot;callback&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useImperativeHandle" value="useImperativeHandle(&#10;  $ref$,&#10;  () =&gt; {&#10;    $handler$&#10;  },&#10;  [$input$],&#10;);&#10;$END$" description="useImperativeHandle" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="ref" expression="" defaultValue="&quot;ref&quot;" alwaysStopAt="true" />
     <variable name="handler" expression="" defaultValue="&quot;handler&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useReducer" value="const [state, dispatch] = useReducer($reducer$, $initialState$, $init$);$END$" description="useReducer" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="reducer" expression="" defaultValue="&quot;reducer&quot;" alwaysStopAt="true" />
     <variable name="initialState" expression="" defaultValue="&quot;initialState&quot;" alwaysStopAt="true" />
     <variable name="init" expression="" defaultValue="&quot;init&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useMemo" value="useMemo(() =&gt; $function$, $input$);$END$" description="useMemo" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="function" expression="" defaultValue="&quot;function&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useRef" value="const $ref$ = useRef($initialValue$);$END$" description="useRef" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="ref" expression="" defaultValue="&quot;ref&quot;" alwaysStopAt="true" />
     <variable name="initialValue" expression="" defaultValue="&quot;initialValue&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useLayoutEffect" value="useLayoutEffect(() =&gt; {&#10;  return () =&gt; {&#10;    $effect$&#10;  },&#10;  [$input$]&#10;});&#10;$END$" description="useLayoutEffect" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="effect" expression="" defaultValue="&quot;effect&quot;" alwaysStopAt="true" />
     <variable name="input" expression="" defaultValue="&quot;input&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="useDebugValue" value="useDebugValue($value$);$END$" description="useDebugValue" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="cref" value="this.$refName$Ref = React.createRef();$END$" description="Creates a ref" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="refName" expression="" defaultValue="&quot;refName&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="cctx" value="const $contextName$ = React.createContext();$END$" description="Creates a context" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="contextName" expression="" defaultValue="&quot;contextName&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="hoc" value="import React from 'react'&#10;import PropTypes from 'prop-types'&#10;&#10;export default ($WrappedComponent$) =&gt; {&#10;  const $hocComponent$ = ({ ...props }) =&gt; &lt;$WrappedComponent$ {...props} /&gt;&#10;&#10;  $hocComponent$.propTypes = {&#10;  }&#10;&#10;  return $hocComponent$&#10;}" description="Creates a React higher-order component" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="WrappedComponent" expression="" defaultValue="&quot;WrappedComponent&quot;" alwaysStopAt="true" />
     <variable name="hocComponent" expression="" defaultValue="&quot;hocComponent&quot;" alwaysStopAt="true" />
+    <context />
   </template>
   <template name="bnd" value="this.$1$ = this.$1$.bind(this);$END$" description="Binds the this of a method. To be used inside a constructor" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />

@@ -29,4 +29,22 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="cso" value="jasmine.createSpyObj&lt;$TYPE$&gt;(['$END$'])" description="Create spy object" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jso" value="jasmine.SpyObj&lt;$TYPE$&gt;(['$END$'])" description="jasmine spy object type" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="csoo" value="jasmine.createSpyObj&lt;$TYPE$&gt;({ $END$ })" description="Create spy object with object" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>

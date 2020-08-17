@@ -1,8 +1,0 @@
-<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
-  <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="meta 8" />
-  </action>
-  <action id="FileStructurePopup">
-    <keyboard-shortcut first-keystroke="ctrl alt s" />
-  </action>
-</keymap>

@@ -6,15 +6,22 @@
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>
-    <mask>*.ng</mask>
     <mask>*.shtml</mask>
     <mask>*.shtm</mask>
     <mask>*.sht</mask>
-    <mask>*.html</mask>
+    <mask>*.ng</mask>
     <mask>*.ats</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
+    <mask>*.module.ts</mask>
+    <mask>*.html</mask>
+    <mask>!node_modules/</mask>
+    <mask>*.ts,!*.spec.ts</mask>
+    <mask>*.scss</mask>
+    <mask>!*.spec.js[on]</mask>
+    <mask>!*.spec.js</mask>
     <mask>*.ts</mask>
-    <mask>*.component.ts</mask>
+    <mask>*.spec.ts</mask>
+    <mask>!*.spec.ts</mask>
   </component>
 </application>

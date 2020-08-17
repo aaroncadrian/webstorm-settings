@@ -1,0 +1,89 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="CallHierarchy" />
+  <action id="ChangesView.Diff" />
+  <action id="ChangesView.Move" />
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="a" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="o" />
+  </action>
+  <action id="CloseAllToTheLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="left" />
+  </action>
+  <action id="CloseAllToTheRight">
+    <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="right" />
+  </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="m" />
+  </action>
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="p" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="j" />
+  </action>
+  <action id="CompareTwoFiles" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="EditorCut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
+  <action id="ExpressionTypeInfo" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="SendEOF" />
+  <action id="StringManipulation.SwitchStyleAction">
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
+  <action id="TsLintFileFixAction">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl alt h" />
+  </action>
+  <action id="XDebugger.CopyWatch" />
+  <action id="openAssertEqualsDiff" />
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+</keymap>

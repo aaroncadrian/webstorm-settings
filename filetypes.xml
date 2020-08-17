@@ -1,0 +1,47 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="Dockerfile.katana" type="Dockerfile" />
+      <mapping pattern="Dockerfile.e2e" type="Dockerfile" />
+      <mapping pattern="Dockerfile.runtime" type="Dockerfile" />
+      <mapping pattern="Dockerfile.demo" type="Dockerfile" />
+      <mapping pattern="Dockerfile2" type="Dockerfile" />
+      <mapping pattern="warn-deprecated" type="JavaScript" />
+      <mapping pattern="temp" type="PLAIN_TEXT" />
+      <mapping pattern=".artifactignore" type="PLAIN_TEXT" />
+      <mapping pattern="zen" type="PLAIN_TEXT" />
+      <mapping pattern="example" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="original" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
+      <mapping pattern=".aspen.env" type="PLAIN_TEXT" />
+      <mapping pattern=".gcloudignore" type="PLAIN_TEXT" />
+      <mapping ext="model" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
+      <mapping ext="dockerignore" type="PLAIN_TEXT" />
+      <mapping ext="enum" type="PLAIN_TEXT" />
+      <mapping ext="example" type="PLAIN_TEXT" />
+      <mapping ext="mmd" type="PLAIN_TEXT" />
+      <mapping ext="coverage" type="PLAIN_TEXT" />
+      <mapping ext="nodechromium" type="PLAIN_TEXT" />
+      <mapping ext="container" type="PLAIN_TEXT" />
+      <mapping ext="demo" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="data" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="worker" type="TypeScript" />
+      <mapping pattern=".secretmanagerrc" type="YAML" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping pattern="Dockerfile.*" approved="true" type="Dockerfile" />
+      <removed_mapping pattern="!*.dockerignore" approved="true" type="Dockerfile" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+    </extensionMap>
+  </component>
+</application>

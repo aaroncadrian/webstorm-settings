@@ -5,12 +5,6 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
-  <action id="ActivateCommitToolWindow">
-    <keyboard-shortcut first-keystroke="alt c" />
-  </action>
-  <action id="ActivateServicesToolWindow">
-    <keyboard-shortcut first-keystroke="alt 0" />
-  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt 8" />
@@ -21,9 +15,6 @@
   <action id="CallHierarchy" />
   <action id="ChangesView.Diff" />
   <action id="ChangesView.Move" />
-  <action id="CleanupBranches">
-    <keyboard-shortcut first-keystroke="ctrl alt d" second-keystroke="b" />
-  </action>
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="a" />
   </action>
@@ -50,15 +41,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl w" second-keystroke="j" />
   </action>
   <action id="CompareTwoFiles" />
-  <action id="CopyPaths" />
-  <action id="CopyReferencePopup">
-    <keyboard-shortcut first-keystroke="shift ctrl c" />
-  </action>
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
-  <action id="ES6.Generate.Index">
-    <keyboard-shortcut first-keystroke="alt g" />
-  </action>
   <action id="EditorCut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
@@ -75,9 +59,6 @@
   </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="alt f" />
-  </action>
-  <action id="InstallNodeLocalDependencies">
-    <keyboard-shortcut first-keystroke="ctrl alt r" second-keystroke="i" />
   </action>
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -98,16 +79,12 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
-  <action id="TypeScript.Restart.Service">
-    <keyboard-shortcut first-keystroke="ctrl alt r" second-keystroke="t" />
-  </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
   <action id="XDebugger.CopyWatch" />
-  <action id="context.load" />
   <action id="openAssertEqualsDiff" />
   <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
     <keyboard-shortcut first-keystroke="alt m" />

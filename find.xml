@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '...\apps\aspen-server\src\app\core\emb.router.ts'" />
-    <option name="defaultScopeName" value="File '...\apps\aspen-server\src\app\core\emb.router.ts'" />
-    <option name="SEARCH_SCOPE" value="File '...\apps\aspen-server\src\app\core\emb.router.ts'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>

@@ -36,17 +36,4 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="storeselect" value="this.store.pipe(select($SELECTION$)$PIPES$)$END$" description="Select from store" toReformat="true" toShortenFQNames="true">
-    <variable name="PIPES" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="createeffect" value="public $EFFECT_NAME$$ = createEffect(() =&gt; this.actions$.pipe(&#10;  ofType($ACTION_TYPE$),&#10;  $END$&#10;));" description="Create effect" toReformat="false" toShortenFQNames="true">
-    <variable name="EFFECT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ACTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
 </templateSet>

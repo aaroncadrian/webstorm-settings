@@ -1,0 +1,67 @@
+<templateSet group="NgRx">
+  <template name="createeffect" value="public $EFFECT_NAME$$ = createEffect(() =&gt; this.actions$.pipe(&#10;  ofType($ACTION_TYPE$),&#10;  $END$&#10;));" description="Create effect" toReformat="false" toShortenFQNames="true">
+    <variable name="EFFECT_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="storeselect" value="this.store.pipe(select($SELECTION$)$PIPES$)$END$" description="Select from store" toReformat="true" toShortenFQNames="true">
+    <variable name="PIPES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="projector" value="($SELECTIONS$, props: { $PROPS$ }): $RETURN_TYPE$ =&gt; $END$" description="Create projector function" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTIONS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="createselector" value="const $SELECTOR_NAME$ = createSelector($SELECTORS$);$END$" description="Create selector" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTOR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SELECTORS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="createaction" value="export const $ACTION_NAME$ = createAction($ACTION_TYPE$, props&lt;{ $PROPS$ }&gt;());$END$" description="Create action" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="on" value="on($ACTION$, (state, { $PROPS$ }) =&gt; $BODY$),$END$" description="Create on for reducer" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="getselectors" value="export const { $SELECTORS$ } = adapter.getSelectors();$END$" description="Get selectors" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTORS" expression="" defaultValue="selectEntities, selectAll" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="exportreducer" value="export function reducer(state: State | undefined, action: Action): State {&#10;  return $REDUCER_NAME$(state, action);&#10;}&#10;$END$" description="Export Reducer" toReformat="false" toShortenFQNames="true">
+    <variable name="REDUCER_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="substateselector" value="const $SELECTOR_NAME$ = createSelector(&#10;  selectFeatureState,&#10;  createFeatureSelector&lt;$FEATURE_STATE$, $SUBSTATE$&gt;($SUBSTATE_NAME$)&#10;);&#10;$END$" description="Create substate selector" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTOR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FEATURE_STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUBSTATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUBSTATE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

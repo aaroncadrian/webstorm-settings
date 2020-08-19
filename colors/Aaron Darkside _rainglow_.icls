@@ -1,11 +1,11 @@
-<scheme name="Darkside (rainglow) copy" version="142" parent_scheme="Darcula">
+<scheme name="Aaron Darkside (rainglow)" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2020-08-19T18:16:31</property>
+    <property name="created">2020-08-19T18:18:53</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.0.0</property>
-    <property name="modified">2020-08-19T18:17:44</property>
-    <property name="originalScheme">_@user_Darkside (rainglow)</property>
+    <property name="modified">2020-08-19T18:19:04</property>
+    <property name="originalScheme">Darkside (rainglow) copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <font>
@@ -14,7 +14,7 @@
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="12" />

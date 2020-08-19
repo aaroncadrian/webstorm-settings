@@ -1,0 +1,11 @@
+<keymap version="1" name="Aaron macOS" parent="Mac OS X 10.5+">
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="a" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="o" />
+  </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="m" />
+  </action>
+</keymap>

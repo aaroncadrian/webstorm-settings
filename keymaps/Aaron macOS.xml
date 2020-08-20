@@ -15,7 +15,19 @@
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="j" />
   </action>
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift meta back_quote" />
+  </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="PreviousWindow" />
   <action id="TsLintFileFixAction">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
+  <action id="Uml.ShowDiff" />
 </keymap>

@@ -1,0 +1,12 @@
+<application>
+  <component name="VSTSSettings">
+    <option name="properties">
+      <array>
+        <PropertyState>
+          <option name="name" value="authType" />
+          <option name="value" value="DEVICE_FLOW" />
+        </PropertyState>
+      </array>
+    </option>
+  </component>
+</application>

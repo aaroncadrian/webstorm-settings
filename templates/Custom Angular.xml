@@ -1,0 +1,13 @@
+<templateSet group="Custom Angular">
+  <template name="ngoc" value="public ngOnChanges($PARAMS$): void {&#10;  $END$&#10;}" description="Add ngOnChanges Method" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="oc" value="OnChanges$END$" description="Add OnChanges Interface" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

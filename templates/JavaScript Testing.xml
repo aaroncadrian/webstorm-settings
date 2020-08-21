@@ -26,4 +26,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="descsurround" value="describe('$MESSAGE$', () =&gt; {&#10;  $SELECTION$&#10;});" description="Surround in desc" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -7,4 +7,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rx-sink" value="this.subs.sink = $END$;" description="SubSink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

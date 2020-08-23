@@ -1,0 +1,8 @@
+<templateSet group="NgRx">
+  <template name="n-ss" value="this.store.pipe(select($SELECTOR$)$END$)" description="Select from Store" toReformat="false" toShortenFQNames="true">
+    <variable name="SELECTOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,10 @@
+<templateSet group="RxJs">
+  <template name="rx-mm" value="mergeMap(($PARAMS$) =&gt; $OBS$)$END$" description="RxJs mergeMap Operator" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OBS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

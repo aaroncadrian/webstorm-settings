@@ -2,8 +2,8 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile.runtime" type="Dockerfile" />
-      <mapping pattern="Dockerfile2" type="Dockerfile" />
       <mapping pattern="Dockerfile.katana" type="Dockerfile" />
+      <mapping pattern="Dockerfile2" type="Dockerfile" />
       <mapping pattern="Dockerfile.demo" type="Dockerfile" />
       <mapping pattern="Dockerfile.e2e" type="Dockerfile" />
       <mapping pattern="warn-deprecated" type="JavaScript" />

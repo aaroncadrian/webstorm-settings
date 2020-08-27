@@ -10,4 +10,14 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="od" value="OnDestroy$END$" description="Add OnDestroy Interface" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ngod" value="public ngOnDestroy(): void {&#10;  $END$&#10;}" description="Add ngOnDestroy Method" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

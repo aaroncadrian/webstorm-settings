@@ -7,9 +7,19 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="rx-sink" value="this.subs.sink = $END$;" description="SubSink" toReformat="false" toShortenFQNames="true">
+  <template name="sink" value="this.subs.sink = $END$;" description="SubSink" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pss" value="private readonly subs = new $END$SubSink();" description="private subsink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="unsub" value="this.subs.unsubscribe();$END$" description="Unsubscribe from SubSink" toReformat="false" toShortenFQNames="true">
+    <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>

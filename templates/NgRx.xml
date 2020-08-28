@@ -5,4 +5,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="createeffect" value="public $ACTION$$ = createEffect(() =&gt; this.actions$.pipe(ofType($ACTION$$TYPE$)$END$));" description="Create Effect" toReformat="false" toShortenFQNames="true">
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

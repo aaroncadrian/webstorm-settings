@@ -42,4 +42,18 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="tbi" value="TestBed.inject($TOKEN$);$END$" description="TestBed.inject" toReformat="false" toShortenFQNames="true">
+    <variable name="TOKEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="tbis" value="TestBed.inject($TOKEN$) as jasmine.SpyObj&lt;$TOKEN$&gt;;$END$" description="TestBed.inject as spy" toReformat="false" toShortenFQNames="true">
+    <variable name="TOKEN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

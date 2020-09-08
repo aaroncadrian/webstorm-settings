@@ -56,4 +56,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="tbims" value="TestBed.inject(MockStore) as MockStore&lt;$PARTIAL_STATE$&gt;;$END$" description="TestBed.inject Mock Store" toReformat="false" toShortenFQNames="true">
+    <variable name="PARTIAL_STATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

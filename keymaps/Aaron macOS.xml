@@ -27,8 +27,14 @@
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="PreviousWindow" />
+  <action id="ReformatCode" />
+  <action id="ReformatWithPrettierAction">
+    <keyboard-shortcut first-keystroke="shift meta alt p" />
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
   <action id="TsLintFileFixAction">
     <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.ReformatCommitMessage" />
 </keymap>

@@ -63,6 +63,9 @@
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="OpenInBrowser">
+    <keyboard-shortcut first-keystroke="shift ctrl alt o" second-keystroke="b" />
+  </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>

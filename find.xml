@@ -23,6 +23,7 @@
     <mask>!*.spec.js</mask>
     <mask>*.spec.ts</mask>
     <mask>!*.spec.ts</mask>
+    <mask>!aspen/data-access-projects</mask>
     <mask>*.ts</mask>
   </component>
 </application>

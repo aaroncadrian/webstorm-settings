@@ -1,0 +1,39 @@
+<templateSet group="Custom Angular">
+  <template name="unsub" value="this.subs.unsubscribe();$END$" description="Unsubscribe from SubSink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sink" value="this.subs.sink = $SUBSCRIPTION$;$END$" description="Sink subscription" toReformat="false" toShortenFQNames="true">
+    <variable name="SUBSCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pss" value="private readonly subs = new SubSink();$END$" description="Add private SubSink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ngod" value="public ngOnDestroy(): void {&#10;  $END$&#10;}" description="Add ngOnDestroy method" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="od" value="OnDestroy$END$" description="Add OnDestroy" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="oc" value="OnChanges$END$" description="Add OnChanges" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ngoc" value="public ngOnChanges($CHANGES$): void {&#10;  $END$&#10;}" description="Add ngOnChanges method" toReformat="true" toShortenFQNames="true">
+    <variable name="CHANGES" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

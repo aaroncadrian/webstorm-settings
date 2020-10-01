@@ -1,13 +1,8 @@
 <templateSet group="JavaScript">
-  <template name="imp" value="import $NAME$ from '$PATH$';" description="Import ... From ..." toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PATH" expression="" defaultValue="NAME" alwaysStopAt="true" />
+  <template name="cons" value="constructor($PARAMS$) {$END$}" description="Constructor" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_CLASS" value="true" />
     </context>
-  </template>
-  <template name="ref" value="///&lt;reference path=&quot;$PATH$&quot;/&gt;&#10;$END$" description="Inserts reference path comment" toReformat="true" toShortenFQNames="false" deactivated="true">
-    <variable name="PATH" expression="complete()" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>

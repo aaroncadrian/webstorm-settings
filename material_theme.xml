@@ -1,11 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.8.0" />
-    <option name="selectedTheme" value="ONE_DARK" />
-    <option name="highlightColor" value="80cbc4" />
-    <option name="accentColor" value="80cbc4" />
-    <option name="userId" value="4e81fa87:1653ba09b6c:-8000" />
-    <option name="allowDataCollection" value="true" />
-    <option name="isWizardShown" value="true" />
+    <option name="accentColor" value="416a9b" />
+    <option name="selectedTheme" value="NATIVE" />
+    <option name="userId" value="-3c58386f:1740c6b413e:-8000" />
+    <option name="version" value="5.2.0" />
   </component>
 </application>

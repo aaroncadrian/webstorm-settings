@@ -36,4 +36,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="a-pub" value="public $METHOD_NAME$($PARAMS$): $RETURN_TYPE$ {&#10;  $END$&#10;}" description="Public Method" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="RETURN_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>

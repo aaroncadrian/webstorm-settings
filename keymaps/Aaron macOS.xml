@@ -26,6 +26,9 @@
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="PreviousWindow" />
   <action id="TsLintFileFixAction">
     <keyboard-shortcut first-keystroke="alt k" />

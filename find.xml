@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!*.spec.js" />
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.htm</mask>
@@ -21,9 +20,9 @@
     <mask>*.scss</mask>
     <mask>!*.spec.js[on]</mask>
     <mask>*.spec.ts</mask>
-    <mask>!*.spec.ts</mask>
     <mask>!aspen/data-access-projects</mask>
-    <mask>*.ts</mask>
     <mask>!*.spec.js</mask>
+    <mask>*.ts</mask>
+    <mask>!*.spec.ts</mask>
   </component>
 </application>

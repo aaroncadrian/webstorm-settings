@@ -1,34 +1,25 @@
-<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+<keymap version="1" name="Aaron macOS" parent="Mac OS X 10.5+">
   <action id="ActivateServicesToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 8" />
     <keyboard-shortcut first-keystroke="alt f12" />
   </action>
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="shift ctrl meta w" />
     <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="a" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="o" />
   </action>
-  <action id="CloseAllToTheLeft">
-    <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="left" />
-  </action>
-  <action id="CloseAllToTheRight">
-    <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="right" />
-  </action>
   <action id="CloseAllUnmodifiedEditors">
     <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="m" />
-  </action>
-  <action id="CloseAllUnpinnedEditors">
-    <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="p" />
   </action>
   <action id="CloseProject">
     <keyboard-shortcut first-keystroke="shift meta w" second-keystroke="j" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
-  <action id="DumpLookupElementWeights" />
-  <action id="FileChooser.GotoDesktop" />
+  <action id="EslintImportCodeStyle">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift meta back_quote" />
   </action>
@@ -39,26 +30,14 @@
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="IntroduceParameter" />
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
   <action id="PreviousWindow" />
-  <action id="PropTypeAction" />
-  <action id="ReformatCode" />
   <action id="ReformatWithPrettierAction">
     <keyboard-shortcut first-keystroke="shift meta alt p" />
     <keyboard-shortcut first-keystroke="meta alt p" />
-    <keyboard-shortcut first-keystroke="meta alt l" />
-  </action>
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="shift meta p" />
-  </action>
-  <action id="SendEOF" />
-  <action id="StringManipulation.SwitchStyleAction">
-    <keyboard-shortcut first-keystroke="shift alt m" />
-  </action>
-  <action id="TsLintFileFixAction">
-    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="Uml.ShowDiff" />
-  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
-    <keyboard-shortcut first-keystroke="alt m" />
-  </action>
+  <action id="Vcs.ReformatCommitMessage" />
 </keymap>

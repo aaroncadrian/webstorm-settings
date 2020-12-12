@@ -2,7 +2,7 @@
   <template name="desc" value="describe('$NAME$', () =&gt; {&#10;  $END$&#10;});" description="Inserts describe() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="jsMethodName()" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JS_STATEMENT" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
   <template name="bfe" value="beforeEach(() =&gt; {&#10;  $END$&#10;});" description="Inserts beforeEach() block" toReformat="true" toShortenFQNames="true">
@@ -20,17 +20,5 @@
   </template>
   <template name="bf" value="before(() =&gt; {&#10;  $END$&#10;});" description="Inserts before() block" toReformat="true" toShortenFQNames="true">
     <context />
-  </template>
-  <template name="bfa" value="beforeAll(() =&gt; {&#10;  $END$&#10;});" description="Inserts beforeAll() block" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JS_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="descsurround" value="describe('$MESSAGE$', () =&gt; {&#10;  $SELECTION$&#10;});" description="Surround in desc" toReformat="false" toShortenFQNames="true">
-    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="TypeScript" value="true" />
-    </context>
   </template>
 </templateSet>

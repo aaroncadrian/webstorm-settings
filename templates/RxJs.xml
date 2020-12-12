@@ -1,28 +1,24 @@
 <templateSet group="RxJs">
-  <template name="mm" value="mergeMap(($PARAMS$) =&gt; $BODY$),$END$" description="RxJs Merge Map" toReformat="false" toShortenFQNames="true">
+  <template name="rx-mm" value="mergeMap(($PARAMS$) =&gt; $OBS$)$END$" description="RxJs mergeMap Operator" toReformat="false" toShortenFQNames="true">
     <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OBS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="sink" value="this.subs.sink = $END$;" description="SubSink" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pss" value="private readonly subs = new $END$SubSink();" description="private subsink" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="map" value="map(($PARAMS$) =&gt; $BODY$),$END$" description="RxJs Map" toReformat="false" toShortenFQNames="true">
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="sm" value="switchMap(($PARAMS$) =&gt; $BODY$),$END$" description="RxJs Switch Map" toReformat="false" toShortenFQNames="true">
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-  <template name="tap" value="tap(($PARAMS$) =&gt; $BODY$),$END$" description="RxJs Tap" toReformat="false" toShortenFQNames="true">
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="unsub" value="this.subs.unsubscribe();$END$" description="Unsubscribe from SubSink" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="TypeScript" value="true" />
     </context>

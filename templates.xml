@@ -119,6 +119,10 @@
           <option name="key" value="shell_command exists" />
         </TemplateKey>
         <TemplateKey>
+          <option name="groupName" value="JavaScript Testing" />
+          <option name="key" value="descr" />
+        </TemplateKey>
+        <TemplateKey>
           <option name="groupName" value="AngularJS " />
           <option name="key" value="ngdcf" />
         </TemplateKey>

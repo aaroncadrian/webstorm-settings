@@ -4,7 +4,5 @@
   </component>
   <component name="UsageViewSettings">
     <option name="FLATTEN_MODULES" value="false" />
-    <option name="GROUP_BY_FILE_STRUCTURE" value="false" />
-    <option name="GROUP_BY_PACKAGE" value="false" />
   </component>
 </application>

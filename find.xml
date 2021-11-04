@@ -1,0 +1,28 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <mask>*.xml</mask>
+    <mask>*.css</mask>
+    <mask>*.htm</mask>
+    <mask>*.shtml</mask>
+    <mask>*.shtm</mask>
+    <mask>*.sht</mask>
+    <mask>*.ng</mask>
+    <mask>*.ats</mask>
+    <mask>*.cjs</mask>
+    <mask>*.js</mask>
+    <mask>*.module.ts</mask>
+    <mask>*.html</mask>
+    <mask>!node_modules/</mask>
+    <mask>*.ts,!*.spec.ts</mask>
+    <mask>*.scss</mask>
+    <mask>!*.spec.js[on]</mask>
+    <mask>*.spec.ts</mask>
+    <mask>!aspen/data-access-projects</mask>
+    <mask>!*.spec.js</mask>
+    <mask>!*.spec.ts</mask>
+    <mask>*.ts</mask>
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<templateSet group="Zenith">
+  <template name="ic" value="export const icon$NAME$ = getIconPath('$ICON$');&#10;$END$" description="Export icon" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ICON" expression="lowercaseAndDash(NAME)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,8 +1,0 @@
-<templateSet group="JavaScript">
-  <template name="cons" value="constructor($PARAMS$) {$END$}" description="Constructor" toReformat="false" toShortenFQNames="true">
-    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JS_CLASS" value="true" />
-    </context>
-  </template>
-</templateSet>

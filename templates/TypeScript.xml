@@ -1,9 +1,0 @@
-<templateSet group="TypeScript">
-  <template name="pr" value="public readonly $VARIABLE_NAME$ = $VALUE$;$END$" description="public readonly" toReformat="false" toShortenFQNames="true">
-    <variable name="VARIABLE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="TypeScript" value="true" />
-    </context>
-  </template>
-</templateSet>

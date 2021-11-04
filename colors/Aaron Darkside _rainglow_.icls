@@ -4,19 +4,19 @@
     <property name="created">2020-08-19T18:18:53</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2020.2.0.0</property>
-    <property name="modified">2020-09-08T14:43:34</property>
+    <property name="modified">2020-08-19T18:19:04</property>
     <property name="originalScheme">Darkside (rainglow) copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.4" />
   <font>
-    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-    <option name="EDITOR_FONT_SIZE" value="22" />
+    <option name="EDITOR_FONT_NAME" value="Fira Code" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="Fira Code" />
-    <option name="EDITOR_FONT_SIZE" value="22" />
+    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+    <option name="EDITOR_FONT_SIZE" value="18" />
   </font>
-  <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="CONSOLE_LINE_SPACING" value="1.6" />
   <colors>
@@ -1215,9 +1215,6 @@
         <option name="FOREGROUND" value="f2d42c" />
       </value>
     </option>
-    <option name="HTML_CODE">
-      <value />
-    </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="f2d42c" />
@@ -1355,13 +1352,10 @@
     </option>
     <option name="KOTLIN_FUNCTION_LITERAL_BRACES_AND_ARROW">
       <value>
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="a0a0a0" />
       </value>
     </option>
     <option name="KOTLIN_IMPLICIT_EXHAUSTIVE_WHEN">
-      <value />
-    </option>
-    <option name="KOTLIN_LABEL">
       <value />
     </option>
     <option name="KOTLIN_NAMED_ARGUMENT">
@@ -1996,8 +1990,9 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3b514d" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="b39613" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="MESSAGE_ARGUMENT">

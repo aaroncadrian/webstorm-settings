@@ -40,4 +40,10 @@
   </action>
   <action id="Uml.ShowDiff" />
   <action id="Vcs.ReformatCommitMessage" />
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
+    <keyboard-shortcut first-keystroke="shift alt m" />
+  </action>
 </keymap>

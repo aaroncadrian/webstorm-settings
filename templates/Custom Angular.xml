@@ -20,4 +20,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="apo" value="private apollo: Apollo,$END$" description="Add Apollo Client" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="ECMAScript6" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
